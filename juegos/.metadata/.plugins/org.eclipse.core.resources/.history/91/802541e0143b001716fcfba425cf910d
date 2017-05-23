@@ -1,7 +1,0 @@
-package dev.codenmore.tilegame.ui;
-
-public abstract class ClickListener {
-
-	public void onClick();
-	
-}
