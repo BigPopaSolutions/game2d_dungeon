@@ -27,10 +27,12 @@ public class World {
 		entityManager = new EntityManager(handler, new Player(handler, 100, 100));
 		itemManager = new ItemManager(handler);
 		// Temporary entity code!
-		entityManager.addEntity(new Tree(handler, 100, 250));
-		entityManager.addEntity(new Rock(handler, 100, 450));
-		entityManager.addEntity(new Tree(handler, 100, 650));
-		entityManager.addEntity(new Rock(handler, 100, 850));
+		entityManager.addEntity(new Tree(handler, 700, 120));
+		entityManager.addEntity(new Tree(handler, 950, 120));
+		entityManager.addEntity(new Tree(handler, 700, 370));
+		entityManager.addEntity(new Tree(handler, 950, 370));
+		entityManager.addEntity(new Rock(handler, 830, 320));
+		
 		
 		loadWorld(path);
 		
@@ -61,22 +63,6 @@ public class World {
 		entityManager.render(g);
 	}
 	
-	public Handler getHandler() {
-		return handler;
-	}
-
-	public void setHandler(Handler handler) {
-		this.handler = handler;
-	}
-
-	public ItemManager getItemManager() {
-		return itemManager;
-	}
-
-	public void setItemManager(ItemManager itemManager) {
-		this.itemManager = itemManager;
-	}
-
 	public Tile getTile(int x, int y){
 		if(x < 0 || y < 0 || x >= width || y >= height)
 			return Tile.grassTile;
@@ -101,6 +87,22 @@ public class World {
 				tiles[x][y] = Utils.parseInt(tokens[(x + y * width) + 4]);
 			}
 		}
+	}
+	
+	public Handler getHandler() {
+		return handler;
+	}
+
+	public void setHandler(Handler handler) {
+		this.handler = handler;
+	}
+
+	public ItemManager getItemManager() {
+		return itemManager;
+	}
+
+	public void setItemManager(ItemManager itemManager) {
+		this.itemManager = itemManager;
 	}
 	
 	public int getWidth(){

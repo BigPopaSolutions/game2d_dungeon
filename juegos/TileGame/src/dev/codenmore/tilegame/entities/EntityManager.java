@@ -15,6 +15,7 @@ public class EntityManager {
 	private ArrayList<Entity> entities;
 	private ArrayList<Entity> postentities;
 	Iterator<Entity> it;
+	
 	private Comparator<Entity> renderSorter = new Comparator<Entity>(){
 		@Override
 		public int compare(Entity a, Entity b) {
