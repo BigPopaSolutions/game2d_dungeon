@@ -8,11 +8,14 @@ public class Tile {
 	//STATIC STUFF HERE
 	
 	public static Tile[] tiles = new Tile[256];
-	public static Tile grassTile = new GrassTile(0);
-	public static Tile dirtTile = new DirtTile(1);
-	public static Tile rockTile = new RockTile(2);
-	/*public static Tile riverTile = new RiverTile(3);
-	public static Tile doorTile = new DoorTile(4);*/
+	public static Tile grassTile = new GrassTile(0); //Cesped normal
+	public static Tile dirtTile = new DirtTile(1); // Agua
+	public static Tile rockTile = new RockTile(2); // Arbol
+	public static Tile riverTile = new RiverTile(3); // Madera con agua
+	public static Tile doorTile = new DoorTile(4); // Madera
+	public static Tile CespedFlor = new CespedFlor(5); // cesped con flor
+	public static Tile CespedRock = new CespedRock(6); // cesped con piedra
+	public static Tile CespedTree = new CespedTree(7); // cesped con con arbol
 	
 	//CLASS
 	

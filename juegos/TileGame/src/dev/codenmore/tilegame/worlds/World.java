@@ -28,9 +28,6 @@ public class World {
 		itemManager = new ItemManager(handler);
 		// Temporary entity code!
 		entityManager.addEntity(new Tree(handler, 700, 120));
-		entityManager.addEntity(new Tree(handler, 950, 120));
-		entityManager.addEntity(new Tree(handler, 700, 370));
-		entityManager.addEntity(new Tree(handler, 950, 370));
 		entityManager.addEntity(new Rock(handler, 830, 320));
 		
 		

@@ -22,7 +22,6 @@
 <fullyQualifiedTypeName name="dev.codenmore.tilegame.iventory.Inventory"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="dev.codenmore.tilegame.items.Item"/>
-<fullyQualifiedTypeName name="dev.codenmore.tilegame.gfx.Assets"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.awt.Graphics"/>
 <fullyQualifiedTypeName name="java.awt.Font"/>
@@ -32,4 +31,5 @@
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.awt.GraphicsEnvironment"/>
+<fullyQualifiedTypeName name="dev.codenmore.tilegame.gfx.Assets"/>
 </qualifiedTypeNameHistroy>

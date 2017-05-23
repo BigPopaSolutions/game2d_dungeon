@@ -1,0 +1,17 @@
+package dev.codenmore.tilegame.tiles;
+
+import java.awt.image.BufferedImage;
+
+import dev.codenmore.tilegame.gfx.Assets;
+
+public class CespedFlor extends Tile {
+	
+	public CespedFlor(BufferedImage texture, int id) {
+		super(texture, id);
+		// TODO Auto-generated constructor stub
+	}
+
+	public Flor(int id) {
+		super(Assets.flor, id);
+	}
+}

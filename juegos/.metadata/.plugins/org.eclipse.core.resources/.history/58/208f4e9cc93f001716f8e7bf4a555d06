@@ -1,0 +1,9 @@
+package dev.codenmore.tilegame.tiles;
+
+import dev.codenmore.tilegame.gfx.Assets;
+
+public class CespedFlor {
+	public Flor(int id) {
+		super(Assets.flor, id);
+	}
+}
