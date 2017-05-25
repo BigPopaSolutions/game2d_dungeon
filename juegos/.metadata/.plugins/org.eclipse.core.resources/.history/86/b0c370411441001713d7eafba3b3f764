@@ -7,7 +7,5 @@ public class CespedTree extends Tile{
 	public CespedTree(int id) {
 		super(Assets.cespedtree, id);
 	}
-	public boolean isSolid(){
-		return true;
-	}
+
 }
