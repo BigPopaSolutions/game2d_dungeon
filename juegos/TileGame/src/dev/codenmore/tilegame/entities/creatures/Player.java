@@ -116,7 +116,14 @@ public class Player extends Creature {
 			xMove = -speed;
 		if(handler.getKeyManager().right)
 			xMove = speed;
-			
+		
+		System.out.println("X:"+getX()+"   y:"+getY());
+		if(y==968){
+			/*World seconds = new World(handler, "res/worlds/world2.txt");
+			handler.setWorld(seconds);*/
+			handler.getGame().getDisplay().getFrame().setVisible(false);
+			handler.getGame().init("res/worlds/world2.txt");
+		}
 	}
 
 	@Override

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;dev.codenmore.tilegame.states.GameState.RutaMapa&apos; in &apos;dev.codenmore.tilegame.states.GameState&apos;&#x0D;&#x0A;- Original project: &apos;TileGame&apos;&#x0D;&#x0A;- Original element: &apos;dev.codenmore.tilegame.states.GameState.RutaMapa&apos;&#x0D;&#x0A;- Getter method name: &apos;getRutaMapa&apos;&#x0D;&#x0A;- Setter method name: &apos;setRutaMapa&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;RutaMapa&apos;" flags="589830" getter="getRutaMapa" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;dev.codenmore.tilegame.states{GameState.java[GameState^RutaMapa" insertion="2" setter="setRutaMapa" stamp="1495786819570" version="1.0" visibility="1"/>
+</session>

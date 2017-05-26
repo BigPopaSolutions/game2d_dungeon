@@ -8,10 +8,11 @@ import dev.codenmore.tilegame.worlds.World;
 public class GameState extends State {
 	
 	private World world;
+	private String RutaMapa;
 	
-	public GameState(Handler handler){
+	public GameState(Handler handler, String RutaMapa){
 		super(handler);
-		world = new World(handler, "res/worlds/world1.txt");
+		world = new World(handler, RutaMapa);
 		handler.setWorld(world);
 	}
 	
@@ -23,5 +24,13 @@ public class GameState extends State {
 	@Override
 	public void render(Graphics g) {
 		world.render(g);
+	}
+
+	public String getRutaMapa() {
+		return RutaMapa;
+	}
+
+	public void setRutaMapa(String rutaMapa) {
+		RutaMapa = rutaMapa;
 	}
 }

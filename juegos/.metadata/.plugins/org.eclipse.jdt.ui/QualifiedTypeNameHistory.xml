@@ -32,4 +32,5 @@
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.awt.GraphicsEnvironment"/>
 <fullyQualifiedTypeName name="dev.codenmore.tilegame.gfx.Assets"/>
+<fullyQualifiedTypeName name="dev.codenmore.tilegame.worlds.World"/>
 </qualifiedTypeNameHistroy>

@@ -7,7 +7,11 @@ import javax.swing.JFrame;
 
 public class Display {
 
-	private JFrame frame;
+	public JFrame frame;
+	
+
+	
+
 	private Canvas canvas;
 	
 	private String title;
@@ -45,6 +49,10 @@ public class Display {
 	
 	public JFrame getFrame(){
 		return frame;
+	}
+	
+	public void setFrame(JFrame frame) {
+		this.frame = frame;
 	}
 	
 }

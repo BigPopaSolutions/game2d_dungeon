@@ -14,8 +14,11 @@ import dev.codenmore.tilegame.states.State;
 
 public class Game implements Runnable {
 
+
+
 	private Display display;
 	private int width, height;
+	private String path = "res/worlds/world1.txt";
 	public String title;
 	
 	private boolean running = false;
@@ -46,7 +49,7 @@ public class Game implements Runnable {
 		mouseManager = new MouseManager();
 	}
 	
-	private void init(){
+	public void init(String path){
 		display = new Display(title, width, height);
 		display.getFrame().addKeyListener(keyManager);
 		display.getFrame().addMouseListener(mouseManager);
@@ -58,7 +61,7 @@ public class Game implements Runnable {
 		handler = new Handler(this);
 		gameCamera = new GameCamera(handler, 0, 0);
 		
-		gameState = new GameState(handler);
+		gameState = new GameState(handler, path);
 		setMenuState(new MenuState(handler));
 		State.setState(menuState);
 	}
@@ -91,7 +94,7 @@ public class Game implements Runnable {
 	
 	public void run(){
 		
-		init();
+		init(path);
 		
 		int fps = 60;
 		double timePerTick = 1000000000 / fps;
@@ -170,6 +173,14 @@ public class Game implements Runnable {
 
 	public void setMenuState(State menuState) {
 		this.menuState = menuState;
+	}
+	
+	public Display getDisplay() {
+		return display;
+	}
+
+	public void setDisplay(Display display) {
+		this.display = display;
 	}
 	
 }

@@ -25,6 +25,7 @@ public abstract class Creature extends Entity {
 			moveX();
 		if(!checkEntityCollisions(0f, yMove))
 			moveY();
+		
 	}
 	
 	public void moveX(){
@@ -47,7 +48,6 @@ public abstract class Creature extends Entity {
 			}else{
 				x = tx * Tile.TILEWIDTH + Tile.TILEWIDTH - bounds.x;
 			}
-			
 		}
 	}
 	
@@ -71,7 +71,6 @@ public abstract class Creature extends Entity {
 			}else{
 				y = ty * Tile.TILEHEIGHT - bounds.y - bounds.height - 1;
 			}
-			
 		}
 	}
 	
