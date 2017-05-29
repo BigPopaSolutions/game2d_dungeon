@@ -126,12 +126,12 @@ public class Player extends Creature {
 			handler.getGame().init("res/worlds/world2.txt");
 			handler.getMouseManager().setUIManager(null);
 			State.setState(handler.getGame().gameState);
-		}
-		if(x==856){
-			handler.getGame().getDisplay().getFrame().setVisible(false);
-			handler.getGame().init("res/worlds/world1.txt");
-			handler.getMouseManager().setUIManager(null);
-			State.setState(handler.getGame().gameState);
+			if(x==27){
+				handler.getGame().getDisplay().getFrame().setVisible(false);
+				handler.getGame().init("res/worlds/world1.txt");
+				handler.getMouseManager().setUIManager(null);
+				State.setState(handler.getGame().gameState);
+			}
 		}
 	}
 
