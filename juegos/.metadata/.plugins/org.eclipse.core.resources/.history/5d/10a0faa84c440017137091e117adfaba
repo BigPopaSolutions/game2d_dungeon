@@ -9,6 +9,7 @@ import dev.codenmore.tilegame.entities.Entity;
 import dev.codenmore.tilegame.gfx.Animation;
 import dev.codenmore.tilegame.gfx.Assets;
 import dev.codenmore.tilegame.iventory.Inventory;
+import dev.codenmore.tilegame.states.State;
 
 public class Player extends Creature {
 	
@@ -117,8 +118,27 @@ public class Player extends Creature {
 		if(handler.getKeyManager().right)
 			xMove = speed;
 		
-		System.out.println("X:"+handler.getGameCamera().getxOffset()+"   y:"+handler.getGameCamera().getyOffset());
-		
+		System.out.println("X:"+getX()+"   y:"+getY());
+		if(y==968){
+			/*World seconds = new World(handler, "res/worlds/world2.txt");
+			handler.setWorld(seconds);*/
+			handler.getGame().getDisplay().getFrame().setVisible(false);
+			handler.getGame().init("res/worlds/world2.txt");
+			handler.getMouseManager().setUIManager(null);
+			State.setState(handler.getGame().gameState);
+		}
+		if(x==856){
+			handler.getGame().getDisplay().getFrame().setVisible(false);
+			handler.getGame().init("res/worlds/world3.txt");
+			handler.getMouseManager().setUIManager(null);
+			State.setState(handler.getGame().gameState);
+		}
+		if(x==-9 && y==50){
+			handler.getGame().getDisplay().getFrame().setVisible(false);
+			handler.getGame().init("res/worlds/world1.txt");
+			handler.getMouseManager().setUIManager(null);
+			State.setState(handler.getGame().gameState);
+		}
 	}
 
 	@Override
