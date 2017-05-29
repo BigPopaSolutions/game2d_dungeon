@@ -10,7 +10,7 @@ public class Assets {
 	public static Font font28;
 	public static Font font52;
 	
-	public static BufferedImage dirt, grass, stone, tree, rock, river, door, flor, cespedrock, cespedtree;
+	public static BufferedImage dirt, grass, stone, tree, rock, river, door, flor, cespedrock, cespedtree,mario, luigi;
 	public static BufferedImage wood;
 	public static BufferedImage[] player_down, player_up, player_left, player_right;
 	public static BufferedImage[] zombie_down, zombie_up, zombie_left, zombie_right;
@@ -69,6 +69,10 @@ public class Assets {
 		flor = sheet.crop(width, width * 2, width, height);
 		cespedrock = sheet.crop(width * 2, width * 2, width, height);
 		cespedtree = sheet.crop(width * 3, width * 2, width, height);
+		
+		//añadido Alex
+		mario=sheet.crop(width * 0, height *3, width, height);
+		luigi=sheet.crop(width * 1, height *3, width, height);
 		
 	}
 }
