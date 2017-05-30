@@ -91,4 +91,4 @@
 ![](https://github.com/BigPopaSolutions/game2d_dungeon/blob/master/juegos/TileGame/res/worlds/sprint2.png)
 
  > sprint 3
-![](hsprintttps://github.com/BigPopaSolutions/game2d_dungeon/blob/master/juegos/TileGame/res/worlds/joogoma.jpeg)
+![](https://github.com/BigPopaSolutions/game2d_dungeon/blob/master/juegos/TileGame/res/worlds/joogoma.jpeg)
