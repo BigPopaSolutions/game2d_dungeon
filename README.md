@@ -2,15 +2,15 @@
 
 👥  Miembros del equipo de trabajo 👥 
 
-:bowtie: David Roman https://github.com/Davilin28
+😝 David Roman https://github.com/Davilin28
 
-:bowtie: Armando Calderon https://github.com/armandix23
+😋 Armando Calderon https://github.com/armandix23
 
-:bowtie: Diego Piñonosa https://github.com/DiegoPM01
+😊 Diego Piñonosa https://github.com/DiegoPM01
 
-:bowtie: Alex Gomez https://github.com/alexgcr33
+😚 Alex Gomez https://github.com/alexgcr33
 
-:bowtie: Dani Ferrazza github
+😁 Dani Ferrazza github
 
 
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -62,6 +62,8 @@
 🔜 Ataque y vida de personajes.
 
 🔜 Transicion entre mapas.
+
+
 -------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------
