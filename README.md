@@ -84,6 +84,11 @@
     
 👾  👾  👾  🏹 Mejoras de los mapas
 
-![](http://imgur.com/JgOJ29Z)
-mapa 2 
-mapa 3 
+ > mapa 1
+![](https://github.com/BigPopaSolutions/game2d_dungeon/blob/master/juegos/TileGame/res/worlds/SPRINTFOTO1.png)
+
+> mapa 2
+![](https://github.com/BigPopaSolutions/game2d_dungeon/blob/master/juegos/TileGame/res/worlds/sprint2.png)
+
+ > mapa 3
+![](https://github.com/BigPopaSolutions/game2d_dungeon/blob/master/juegos/TileGame/res/worlds/joogoma.jpeg)
