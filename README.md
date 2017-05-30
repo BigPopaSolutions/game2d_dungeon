@@ -10,7 +10,7 @@
 
 😚 Alex Gomez https://github.com/alexgcr33
 
-😁 Dani Ferrazza github
+😁 Dani Ferrazza https://github.com/Danixv96
 
 
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -84,6 +84,6 @@
     
 👾  👾  👾  🏹 Mejoras de los mapas
 
-mapa 1 
+![](http://imgur.com/JgOJ29Z)
 mapa 2 
 mapa 3 
