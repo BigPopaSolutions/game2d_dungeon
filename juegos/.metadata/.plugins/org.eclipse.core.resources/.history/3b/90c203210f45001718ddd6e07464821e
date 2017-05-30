@@ -33,7 +33,7 @@ public class Inventory {
 		this.handler = handler;
 		inventoryItems = new ArrayList<Item>();
 		
-		addItem(Item.woodItem.createNew(10));
+		addItem(Item.woodItem.createNew(5));
 	}
 	
 	public void tick(){

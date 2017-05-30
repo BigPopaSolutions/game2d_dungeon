@@ -69,5 +69,10 @@ public class Assets {
 		flor = sheet.crop(width, width * 2, width, height);
 		cespedrock = sheet.crop(width * 2, width * 2, width, height);
 		cespedtree = sheet.crop(width * 3, width * 2, width, height);
+		
+		//añadido Alex
+	//	mario=sheet.crop(width * 0, height *3, width, height);
+	//	luigi=sheet.crop(width * 1, height *3, width, height);
+		
 	}
 }

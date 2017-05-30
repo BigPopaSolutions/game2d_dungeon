@@ -118,7 +118,8 @@ public class Player extends Creature {
 		if(handler.getKeyManager().right)
 			xMove = speed;
 		
-		System.out.println("X:"+getX()+"   y:"+getY());
+		//System.out.println("X:"+getX()+"   y:"+getY()); //Sacar la posicion del jugador x e y
+		
 		if(y==968){
 			/*World seconds = new World(handler, "res/worlds/world2.txt");
 			handler.setWorld(seconds);*/
@@ -133,7 +134,7 @@ public class Player extends Creature {
 			handler.getMouseManager().setUIManager(null);
 			State.setState(handler.getGame().gameState);
 		}
-		if(x==0 && y==39){
+		if(x==-66){
 			handler.getGame().getDisplay().getFrame().setVisible(false);
 			handler.getGame().init("res/worlds/world1.txt");
 			handler.getMouseManager().setUIManager(null);
