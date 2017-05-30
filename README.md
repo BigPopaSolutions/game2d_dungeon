@@ -85,10 +85,17 @@
 👾  👾  👾  🏹 Mejoras de los mapas
 
 > sprint 1
+-------------------------------------------------------------------------------------------------------------------------------------
 ![](https://github.com/BigPopaSolutions/game2d_dungeon/blob/master/juegos/TileGame/res/worlds/SPRINTFOTO1.png)
 
+
+
 > sprint 2
+-------------------------------------------------------------------------------------------------------------------------------------
 ![](https://github.com/BigPopaSolutions/game2d_dungeon/blob/master/juegos/TileGame/res/worlds/sprint2.png)
 
+
+
  > sprint 3
+ -------------------------------------------------------------------------------------------------------------------------------------
 ![](https://github.com/BigPopaSolutions/game2d_dungeon/blob/master/juegos/TileGame/res/worlds/joogoma.jpeg)
